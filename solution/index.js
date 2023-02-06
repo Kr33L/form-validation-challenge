@@ -1,6 +1,6 @@
 const fields = document.querySelectorAll("input, textarea");
 
-fields.forEach((field) => {
+inputs.forEach((field) => {
   field.setAttribute("aria-invalid", "false");
 
   const feedback = document.createElement("p");
